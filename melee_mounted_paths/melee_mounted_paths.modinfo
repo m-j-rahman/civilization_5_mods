@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da002" version="1">
+  <Properties>
+    <Name>Melee Mounted Paths</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Changes some unit upgrade paths and buffs some of those units.</Teaser>
+    <Description>
+    * Warrior and its unique replacements upgrade into Spearman instead of Swordsman. They also become obsolete at Civil Service instead of Metal Casting.
+    * Pikeman and Landsknecht upgrade into Musketman instead of Lancer. Impi is unchanged and still upgrades into Rifleman.
+    * Knight and its unique replacements upgrade into Lancer instead of Cavalry.
+    * Lancer and its unique replacements upgrade into Cavalry instead of Anti-Tank Gun. They also have their Combat Strength increased from 25 to 28.
+    </Description>
+    <Authors>m-j-rahman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2FD8FD6B89394782152C63F90D546734" import="0">xml/paths.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xml/paths.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
