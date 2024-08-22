@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <GameData>
+
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_OBSERVATORY"/>
@@ -10,4 +11,24 @@
 			</Set>
 		</Update>
 	</Buildings>
+
+    <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_OBSERVATORY_STRATEGY"/>
+			<Set>
+				<Text>
+					The Observatory can only be constructed in a city within 2 tiles of a mountain that is inside your territory. The Observatory greatly increases the city's [ICON_RESEARCH] Science output.
+				</Text>
+			</Set>
+		</Update>
+        <Update>
+			<Where Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP"/>
+			<Set>
+				<Text>
+					City must be built within 2 tiles of a Mountain that is inside your territory.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
 </GameData>
