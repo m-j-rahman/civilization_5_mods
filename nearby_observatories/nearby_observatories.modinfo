@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da001" version="1">
+  <Properties>
+    <Name>Nearby Observatories</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Allows observatories in cities within 2 tiles of a mountain.</Teaser>
+    <Description>Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain in your borders instead, like the Machu Pichu and Neuschwanstein wonders.</Description>
+    <Authors>m-j-rahman</Authors>
+    <SpecialThanks></SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3C6A4A55B1BFDC4C8422499CC7CC0720" import="0">xml/nearby.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xml/nearby.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
