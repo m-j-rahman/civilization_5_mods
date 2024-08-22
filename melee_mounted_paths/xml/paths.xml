@@ -1,4 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <GameData>
+
+<!-- Warrior, Barbarian Brute, Aztec Jaguar, and Polynesian Maori Warrior upgrade into Spearman instead of Swordsman. They all become obsolete at Civil Service instead of Metal Casting. -->
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_WARRIOR"/>
+			<Set UnitClassType="UNITCLASS_SPEARMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BARBARIAN_WARRIOR"/>
+			<Set UnitClassType="UNITCLASS_SPEARMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AZTEC_JAGUAR"/>
+			<Set UnitClassType="UNITCLASS_SPEARMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+			<Set UnitClassType="UNITCLASS_SPEARMAN"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_WARRIOR"/>
+			<Set>
+				<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_AZTEC_JAGUAR"/>
+			<Set>
+				<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+			<Set>
+				<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			</Set>
+		</Update>
+	</Units>
+
+<!-- Pikeman and Landsknecht upgrade into Musketman instead of Lancer. -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_PIKEMAN"/>
+			<Set>
+				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GERMAN_LANDSKNECHT"/>
+			<Set>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+	</Units>
+	
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set UnitClassType="UNITCLASS_MUSKETMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_LANDSKNECHT"/>
+			<Set UnitClassType="UNITCLASS_MUSKETMAN"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+
+<!-- Knight, Siamese Naresuan's Elephant, Songhai Mandekalu Cavalry, and Spanish Conquistador upgrade into Lancer instead of Cavalry. -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_KNIGHT"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+
+<!-- Lancer, Ottoman Sipahi, and Swedish Hakkapeliitta have their Combat Strength increased from 25 to 28, to match the Polish Winged Hussar. They all upgrade into Cavalry instead of Anti-Tank Gun. -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_LANCER"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_OTTOMAN_SIPAHI"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_LANCER"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OTTOMAN_SIPAHI"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
 </GameData>
