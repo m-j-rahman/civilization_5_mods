@@ -29,6 +29,9 @@ The mod should then be available to select from the in-game Mods screen. Restart
 
 ## Collection
 
+#### Inspired Generals:
+The Great Generals I and II promotions have vague descriptions, and are often weak. Units with the Great Generals I promotion now have Great Generals II instead, which is renamed Inspired Generals and has a more helpful in-game description.
+
 #### Melee Mounted Paths:
 Changes some unit upgrade paths and buffs some of those units.
 * Warrior and its unique replacements upgrade into Spearman instead of Swordsman. They also become obsolete at Civil Service instead of Metal Casting.

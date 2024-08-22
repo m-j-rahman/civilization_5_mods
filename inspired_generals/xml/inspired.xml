@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Unit_FreePromotions>
+		<Update>
+			<Where PromotionType="PROMOTION_SPAWN_GENERALS_I"/>
+			<Set PromotionType="PROMOTION_SPAWN_GENERALS_II"/>
+		</Update>
+	</Unit_FreePromotions>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II"/>
+			<Set>
+				<Text>Inspired Generals</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP"/>
+			<Set>
+				<Text>Combat contributes double the amount of points towards earning a Great General.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+</GameData>
