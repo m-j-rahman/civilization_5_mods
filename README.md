@@ -29,6 +29,13 @@ The mod should then be available to select from the in-game Mods screen. Restart
 
 ## Collection
 
+#### Melee Mounted Paths:
+Changes some unit upgrade paths and buffs some of those units.
+* Warrior and its unique replacements upgrade into Spearman instead of Swordsman. They also become obsolete at Civil Service instead of Metal Casting.
+* Pikeman and Landsknecht upgrade into Musketman instead of Lancer. Impi is unchanged and still upgrades into Rifleman.
+* Knight and its unique replacements upgrade into Lancer instead of Cavalry.
+* Lancer and its unique replacements upgrade into Cavalry instead of Anti-Tank Gun. They also have their Combat Strength increased from 25 to 28.
+
 #### Nearby Observatories:
 Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain in your borders instead, like the Machu Pichu and Neuschwanstein wonders.
 
