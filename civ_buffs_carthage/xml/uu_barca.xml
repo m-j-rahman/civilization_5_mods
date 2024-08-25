@@ -1,1 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_CARTHAGINIAN_FOREST_ELEPHANT"/>
+	</Civilization_UnitClassOverrides>
+
+    <UnitPromotions>
+        <Row>
+            <Type>PROMOTION_BARCA_FEARED_ELEPHANT</Type>
+            <Description>TXT_KEY_PROMOTION_BARCA_FEARED_ELEPHANT</Description>
+            <Help>TXT_KEY_PROMOTION_BARCA_FEARED_ELEPHANT_HELP</Help>
+            <LostWithUpgrade>true</LostWithUpgrade>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <CannotBeChosen>true</CannotBeChosen>
+            <NearbyEnemyCombatMod>-15</NearbyEnemyCombatMod>
+            <NearbyEnemyCombatRange>2</NearbyEnemyCombatRange>
+            <PortraitIndex>59</PortraitIndex>
+            <IconAtlas>ABILITY_ATLAS</IconAtlas>
+            <PediaType>PEDIA_ATTRIBUTES</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_BARCA_FEARED_ELEPHANT</PediaEntry>
+        </Row>
+        <Row>
+            <Type>PROMOTION_BARCA_LIGHTNING_SHIPS</Type>
+            <Description>TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS</Description>
+            <Help>TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <ExtraNavalMovement>3</ExtraNavalMovement>
+            <PortraitIndex>59</PortraitIndex>
+            <IconAtlas>ABILITY_ATLAS</IconAtlas>
+            <PediaType>PEDIA_ATTRIBUTES</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS</PediaEntry>
+        </Row>
+    </UnitPromotions>
+
+    <Language_en_US>
+        <Row Tag="TXT_KEY_PROMOTION_BARCA_FEARED_ELEPHANT">
+            <Text>Feared Elephant</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BARCA_FEARED_ELEPHANT_HELP">
+            <Text>Enemy units within 2 tiles of this unit have -15% [ICON_STRENGTH] Combat Strength.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS">
+            <Text>Lightning Ships</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS_HELP">
+            <Text>3 Extra Movement while Embarked.</Text>
+        </Row>
+    </Language_en_US>
+
+    <Units>
+        <Row>
+            <Class>UNITCLASS_GREAT_GENERAL</Class>
+            <Type>UNIT_CARTHAGINIAN_BARCA</Type>
+            <Cost>-1</Cost>
+            <Moves>3</Moves>
+            <CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Domain>DOMAIN_LAND</Domain>
+            <DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>
+            <Description>TXT_KEY_UNIT_CARTHAGINIAN_BARCA</Description>
+            <Civilopedia>TXT_KEY_CIV5_CARTHAGINIAN_BARCA_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_CIV5_CARTHAGINIAN_BARCA_STRATEGY</Strategy>
+            <Help>TXT_KEY_CIV5_CARTHAGINIAN_BARCA_HELP</Help>
+            <AdvancedStartCost>-1</AdvancedStartCost>
+            <WorkRate>1</WorkRate>
+            <CombatLimit>0</CombatLimit>
+            <DontShowYields>true</DontShowYields>
+            <UnitArtInfo>ART_DEF_UNIT_U_CARTHAGE_AFRICANFOREST_ELEPHANT</UnitArtInfo>
+            <UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+            <UnitFlagIconOffset>0</UnitFlagIconOffset>
+            <IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+            <PortraitIndex>0</PortraitIndex>
+            <MoveRate>GREAT_PERSON</MoveRate>
+        </Row>
+    </Units>
+
+    <Unit_AITypes>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <UnitAIType>UNITAI_GENERAL</UnitAIType>
+        </Row>
+    </Unit_AITypes>
+    
+    <Unit_Builds>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <BuildType>BUILD_CITADEL</BuildType>
+        </Row>
+    </Unit_Builds>
+
+    <Unit_FreePromotions>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <PromotionType>PROMOTION_BARCA_FEARED_ELEPHANT</PromotionType>
+        </Row>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+        </Row>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <PromotionType>PROMOTION_GREAT_ADMIRAL</PromotionType>
+        </Row>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+            <PromotionType>PROMOTION_BARCA_LIGHTNING_SHIPS</PromotionType>
+        </Row>
+    </Unit_FreePromotions>
+
+    
+    <UnitPromotions_CivilianUnitType>
+        <Row>
+            <PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        </Row>
+        <Row>
+            <PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        </Row>
+    </UnitPromotions_CivilianUnitType>
+
+    <Language_en_US>
+        <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_TEXT">
+            <Text>
+            "The Barcid family was a notable Punic (Phoenician) family in the ancient city of Carthage; many of its members were fierce enemies of the Roman Republic. "Barcid" is an adjectival form coined by historians; the actual byname was the Northwest Semitic Barca or Barcas, which means lightning."
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_HELP">
+            <Text>
+            This Carthaginian Unique Great Person replaces the Great General. The Barca acts as both a Great General and a Great Admiral. The Barca also reduces the strength of nearby enemy units and moves at an increased rate.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_STRATEGY">
+            <Text>
+            The Barca is a Unique Great Person available to the Carthaginians, replacing the standard Great General. It provides the same bonuses as both a Great General and a Great Admiral, and it also gives enemy units in the same range a -15% Combat Strength penalty. Barcas also possess an increased movement rate.
+            </Text>
+        </Row>
+    </Language_en_US>
+
+    <Civilization_UnitClassOverrides>
+        <Row>
+            <CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+            <UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        </Row>
+    </Civilization_UnitClassOverrides>
+
+</GameData>
