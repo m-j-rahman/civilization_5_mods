@@ -29,6 +29,12 @@ The mod should then be available to select from the in-game Mods screen. Restart
 
 ## Collection
 
+### Civ Buffs - Carthage:
+Carthage is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Carthage to make them more interesting to play, while keeping the current style of the civ.
+* Trait now also provides free Walls in coastal cities.
+* African Forest Elephant replaced by Barca, a unique Great General. It has higher Movement, debuffs nearby enemy units, and also acts as a Great Admiral.
+* Quinquereme changed to Naval Ranged unit, like the Byzantine Dromon. It has 10 Combat Strength, 11 Ranged Strength, 2 Range, Quick Study promotion, and upgrades into Galleass.
+
 ### Inspired Generals:
 The Great Generals I and II promotions have vague descriptions, and are often weak. Units with the Great Generals I promotion now have Great Generals II instead, which is renamed Inspired Generals and has a more helpful in-game description.
 
