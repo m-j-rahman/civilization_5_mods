@@ -38,11 +38,11 @@
     <Language_en_US>
         <Update>
             <Where Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY"/>
-            <Set Text="Only the Carthaginians may build this unit. Unike the Trireme, it is a ranged attack unit. It gains experience 50% faster than normal. The Quinquereme cannot enter Deep Ocean tiles outside of the city borders."/>
+            <Set Text="Only the Carthaginians may build this unit. Unike the Trireme, it is a ranged attack unit. It gains experience toward promotions 50% faster than normal. The Quinquereme cannot enter Deep Ocean tiles outside of the city borders."/>
         </Update>
         <Update>
             <Where Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME"/>
-            <Set Text="Strong Ancient Era Naval Unit used to dominate the seas through ranged attacks on naval units and cities. Gains experience 50% faster than normal. Only the Carthaginians may build it."/>
+            <Set Text="Strong Ancient Era Naval Unit used to dominate the seas through ranged attacks on naval units and cities. Gains experience toward promotions 50% faster than normal. Only the Carthaginians may build it."/>
         </Update>
     </Language_en_US>
 
