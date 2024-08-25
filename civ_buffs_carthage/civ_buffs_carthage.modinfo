@@ -8,6 +8,7 @@
     * Trait now also provides free Walls in coastal cities.[NEWLINE]
     * African Forest Elephant replaced by Barca, a unique Great General. It has higher Movement, debuffs nearby enemy units, and also acts as a Great Admiral.[NEWLINE]
     * Quinquereme changed to Naval Ranged unit, like the Byzantine Dromon. It has 10 Combat Strength, 11 Ranged Strength, 2 Range, Quick Study promotion, and upgrades into Galleass.
+    </Description>
     <Authors>Amps</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
