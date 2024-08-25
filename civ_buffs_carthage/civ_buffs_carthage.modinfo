@@ -33,7 +33,7 @@
   <Actions>
     <OnModActivated>
         <UpdateDatabase>xml/ua_trait.xml</UpdateDatabase>
-        <UpdateDatabase>xml/ub_barca.xml</UpdateDatabase>
+        <UpdateDatabase>xml/uu_barca.xml</UpdateDatabase>
         <UpdateDatabase>xml/uu_quinquereme.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
