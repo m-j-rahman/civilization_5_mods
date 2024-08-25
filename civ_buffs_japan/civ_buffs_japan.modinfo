@@ -7,7 +7,7 @@
     <Description>[NEWLINE]
     * Trait now also provides a +10% Combat Bonus. +2 Culture from Fishing Boats instead of +1.[NEWLINE]
     * Zero replaced by Dojo, a Barracks replacement that gives +2 Culture and +2 Science.[NEWLINE]
-    * Samurai available at Metal Casting instead of Steel.
+    * Samurai available at Metal Casting instead of Steel, and upgrades into Musketman instead of Rifleman.
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>

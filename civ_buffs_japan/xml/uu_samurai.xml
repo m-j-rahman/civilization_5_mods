@@ -2,4 +2,36 @@
 
 <GameData>
 
+	<Units>
+		<Update>
+			<Where Type="UNIT_JAPANESE_SAMURAI"/>
+			<Set>
+				<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set UnitClassType="UNITCLASS_MUSKETMAN"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY"/>
+			<Set>
+				<Text>The Samurai are the Japanese unique unit, replacing the Longswordsman. The Samurai is available earlier than the Longswordsman. Samurai have a bonus when fighting in open terrain, and their combat generates twice the usual number of points toward Great Generals. Embarked Samurai can build Fishing Boats in one turn without being consumed, which makes them useful even in times of peace.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SAMURAI"/>
+			<Set>
+				<Text>Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit fights more effectively in open terrain and helps produce Great Generals more quickly than the Longswordsman, which it replaces. Embarked Samurai can build Fishing Boats in one turn without being consumed.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
 </GameData>
