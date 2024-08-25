@@ -1,1 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+    <Units>
+        <Update>
+            <Where Type="UNIT_CARTHAGINIAN_QUINQUEREME"/>
+            <Set>
+                <Combat>10</Combat>
+                <RangedCombat>11</RangedCombat>
+                <Range>2</Range>
+                <CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+                <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+            </Set>
+        </Update>
+    </Units>
+
+    <Unit_ClassUpgrades>
+        <Update>
+            <Where UnitType="UNIT_CARTHAGINIAN_QUINQUEREME"/>
+            <Set>
+                <UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+            </Set>
+        </Update>
+    </Unit_ClassUpgrades>
+    
+    <Unit_FreePromotions>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+            <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+        </Row>
+        <Row>
+            <UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+            <PromotionType>PROMOTION_GAIN_EXPERIENCE</PromotionType>
+        </Row>
+    </Unit_FreePromotions>
+
+    <Language_en_US>
+        <Update>
+            <Where Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY"/>
+            <Set Text="Only the Carthaginians may build this unit. Unike the Trireme, it is a ranged attack unit. It gains experience 50% faster than normal. The Quinquereme cannot enter Deep Ocean tiles outside of the city borders."/>
+        </Update>
+        <Update>
+            <Where Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME"/>
+            <Set Text="Strong Ancient Era Naval Unit used to dominate the seas through ranged attacks on naval units and cities. Gains experience 50% faster than normal. Only the Carthaginians may build it."/>
+        </Update>
+    </Language_en_US>
+
+</GameData>
