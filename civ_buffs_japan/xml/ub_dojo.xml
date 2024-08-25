@@ -2,4 +2,77 @@
 
 <GameData>
 
+    <Civilization_UnitClassOverrides>
+	    <Delete UnitType="UNIT_JAPANESE_ZERO"/>
+	</Civilization_UnitClassOverrides>
+	
+    <Buildings>
+		<Row>
+			<Type>BUILDING_JAPANESE_DOJO</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_JAPANESE_DOJO_HELP</Help>
+			<Description>TXT_KEY_BUILDING_JAPANESE_DOJO</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+		
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO">
+			<Text>Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_HELP">
+			<Text>+15 XP for all Units.</Text>
+		</Row>
+	</Language_en_US>
+
+    <Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+  
 </GameData>
