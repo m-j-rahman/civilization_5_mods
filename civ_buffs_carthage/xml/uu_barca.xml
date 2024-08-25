@@ -121,7 +121,62 @@
         </Row>
     </UnitPromotions_CivilianUnitType>
 
+    <Unit_UniqueNames>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_HAMILCAR</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_HANNIBAL</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_HASDRUBAL</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_MAGO</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_BOMILCAR</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_NARAVAS</UniqueName>
+        </Row>
+        <Row>
+        <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
+        <UniqueName>TXT_KEY_CARTHAGINIAN_BARCA_HANNO</UniqueName>
+        </Row>
+    </Unit_UniqueNames>
+
     <Language_en_US>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_HAMILCAR">
+            <Text>Hamilcar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_HANNIBAL">
+            <Text>Hannibal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_HASDRUBAL">
+            <Text>Hasdrubal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_MAGO">
+            <Text>Mago</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_BOMILCAR">
+            <Text>Bomilcar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_NARAVAS">
+            <Text>Naravas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CARTHAGINIAN_BARCA_HANNO">
+            <Text>Hanno</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_BARCA">
+            <Text>Barca</Text>
+        </Row>
         <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_TEXT">
             <Text>
             "The Barcid family was a notable Punic (Phoenician) family in the ancient city of Carthage; many of its members were fierce enemies of the Roman Republic. "Barcid" is an adjectival form coined by historians; the actual byname was the Northwest Semitic Barca or Barcas, which means lightning."
