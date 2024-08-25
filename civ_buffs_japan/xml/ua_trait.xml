@@ -2,4 +2,121 @@
 
 <GameData>
 
+    <UnitPromotions>
+        <Row>
+            <Type>PROMOTION_BUSHIDO</Type>
+            <Description>TXT_KEY_PROMOTION_BUSHIDO</Description>
+            <Help>TXT_KEY_PROMOTION_BUSHIDO_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <CannotBeChosen>true</CannotBeChosen>
+            <AttackMod>10</AttackMod>
+            <DefenseMod>10</DefenseMod>
+            <PortraitIndex>59</PortraitIndex>
+            <IconAtlas>ABILITY_ATLAS</IconAtlas>
+            <PediaType>PEDIA_SHARED</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_BUSHIDO</PediaEntry>
+        </Row>
+    </UnitPromotions>
+
+    <Language_en_US>
+        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
+            <Text>Bushido</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
+            <Text>+10% Combat Bonus</Text>
+        </Row>
+    </Language_en_US>
+
+    <Trait_FreePromotionUnitCombats>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+            <UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+            <PromotionType>PROMOTION_BUSHIDO</PromotionType>
+        </Row>
+    </Trait_FreePromotionUnitCombats>
+
+
+    <Trait_ImprovementYieldChanges>
+        <Update>
+            <Where TraitType="TRAIT_FIGHT_WELL_DAMAGED"/>
+            <Set>
+                <ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+                <YieldType>YIELD_CULTURE</YieldType>
+                <Yield>2</Yield>
+            </Set>
+        </Update>
+    </Trait_ImprovementYieldChanges>
+
+    <Language_en_US>
+        <Update>
+            <Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
+            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +2 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
+        </Update>
+     </Language_en_US>
+
 </GameData>
