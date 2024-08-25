@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da005" version="1">
+  <Properties>
+    <Name>Civ Buffs - Japan</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Trait buffed. Zero replaced by Dojo. Samurai available earlier.</Teaser>
+    <Description>[NEWLINE]
+    * Trait now also provides a +10% Combat Bonus. +2 Culture from Fishing Boats instead of +1.[NEWLINE]
+    * Zero replaced by Dojo, a Barracks replacement that gives +2 Culture and +2 Science.[NEWLINE]
+    * Samurai available at Metal Casting instead of Steel.
+    </Description>
+    <Authors>m-j-rahman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A82345DDB8917A716D9F4999FDAB82F7" import="0">xml/ua_trait.xml</File>
+    <File md5="06C42CC077D28840F07A9350876710F0" import="0">xml/ub_dojo.xml</File>
+    <File md5="61970C0659F7026BDE917E5AE33AE7CB" import="0">xml/uu_samurai.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+        <UpdateDatabase>xml/ua_trait.xml</UpdateDatabase>
+        <UpdateDatabase>xml/ub_dojo.xml</UpdateDatabase>
+        <UpdateDatabase>xml/uu_samurai.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
