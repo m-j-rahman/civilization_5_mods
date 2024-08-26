@@ -11,7 +11,7 @@ Clone the collection
   git clone https://github.com/m-j-rahman/civilization_5_mods.git
 ```
 
-Copy the folder for the mod you want to use to the MODS folder.
+Copy or move the folder for the mod you want to use to the MODS folder.
 
 Windows: 
 
@@ -25,7 +25,10 @@ Linux:
 
 * ~/.local/share/Aspyr/Sid Meier's Civilization 5/MODS
 
-The mod should then be available to select from the in-game Mods screen. Restart the game if it is already running.
+For example, to use the mod "Nearby Observatories" on a Linux machine, the path should end up as: ~/.local/share/Aspyr/Sid Meier's Civilization 5/MODS/nearby_observatories
+Nothing needs to be done with the files within each mod folder (typically each will contain a modinfo file and a folder of xml files), leave them as is.
+The mod should then be available to select from the in-game Mods screen. 
+Restart the game if it is already running.
 
 ## Collection
 
