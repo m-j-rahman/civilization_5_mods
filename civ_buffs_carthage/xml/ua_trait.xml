@@ -14,7 +14,7 @@
     <Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE"/>
-			<Set Text="All coastal Cities get a free Harbour. 50% more trade routes available. Units may cross mountains after the first Barca is earned, taking 50 HP damage if they end a turn on a mountain."/>
+			<Set Text="All coastal Cities get a free Harbour. +50% total trade routes available. Units may cross mountains after the first Barca is earned, taking 50 HP damage if they end a turn on a mountain."/>
 		</Update>
     </Language_en_US>
 
