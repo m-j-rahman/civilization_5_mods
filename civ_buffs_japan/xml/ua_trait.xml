@@ -100,22 +100,21 @@
         </Row>
     </Trait_FreePromotionUnitCombats>
 
-
-    <Trait_ImprovementYieldChanges>
+    <Trait_UnimprovedFeatureYieldChanges>
         <Update>
             <Where TraitType="TRAIT_FIGHT_WELL_DAMAGED"/>
             <Set>
-                <ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+                <FeatureType>FEATURE_ATOLL</FeatureType>
                 <YieldType>YIELD_CULTURE</YieldType>
-                <Yield>2</Yield>
+                <Yield>1</Yield>
             </Set>
         </Update>
-    </Trait_ImprovementYieldChanges>
+    </Trait_UnimprovedFeatureYieldChanges>
 
     <Language_en_US>
         <Update>
             <Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
-            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +2 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
+            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
         </Update>
      </Language_en_US>
 

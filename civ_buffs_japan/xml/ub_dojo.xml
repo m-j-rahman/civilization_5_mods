@@ -14,10 +14,10 @@
 			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_JAPANESE_DOJO_HELP</Help>
 			<Description>TXT_KEY_BUILDING_JAPANESE_DOJO</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BARRACKS_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_JAPANESE_DOJO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_JAPANESE_DOJO_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_JAPANESE_DOJO_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -36,7 +36,7 @@
 		<Row>
 			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
@@ -49,7 +49,7 @@
 		<Row>
 			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
@@ -61,6 +61,12 @@
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO">
 			<Text>Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JAPANESE_DOJO_TEXT">
+			<Text>"A dojo is a hall or place for immersive learning, experiential learning, or meditation. This is traditionally in the field of martial arts. The term literally means "place of the Way" in Japanese."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_STRATEGY">
+			<Text>The Dojo is the Japanese unique building, replacing the Barracks. It provides experience for military units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle. Unlike the Barracks, the Dojo also provides Culture and Science.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_HELP">
 			<Text>+15 XP for all Units.</Text>

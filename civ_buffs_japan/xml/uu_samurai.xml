@@ -15,7 +15,9 @@
 	<Unit_ClassUpgrades>
 		<Update>
 			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
-			<Set UnitClassType="UNITCLASS_MUSKETMAN"/>
+			<Set>
+				<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			</Set>
 		</Update>
 	</Unit_ClassUpgrades>
 
