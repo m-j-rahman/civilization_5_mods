@@ -40,7 +40,6 @@ Assyria is situationally a very strong or very weak civ. On higher difficulties,
 
 ### Civ Buffs - Carthage:
 Carthage is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Carthage while keeping the current style of the civ.
-* Trait now also provides +50% total trade routes.
 * African Forest Elephant replaced by Barca, a unique Great General. It has higher Movement, debuffs nearby enemy units, and also acts as a Great Admiral.
 * Quinquereme changed to Naval Ranged unit, like the Byzantine Dromon. It has 10 Combat Strength, 11 Ranged Strength, 2 Range, Quick Study promotion, and upgrades into Galleass.
 
@@ -52,8 +51,8 @@ The Iroquois are the weakest civ besides Venice. Their unique ability doesn't wo
 
 ### Civ Buffs - Japan:
 Japan is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Japan while keeping the current style of the civ.
-* Trait now also provides a +10% Combat Bonus. +2 Culture from Fishing Boats instead of +1.
-* Zero replaced by Dojo, a Barracks replacement that gives +2 Culture and +2 Science.
+* Trait now also provides a +10% Combat Bonus. +1 Culture from Atolls instead of +2.
+* Zero replaced by Dojo, a Barracks replacement that gives +1 Culture and +2 Science.
 * Samurai available at Metal Casting instead of Steel, and upgrades into Musketman instead of Rifleman.
 
 ### Inspired Generals:
