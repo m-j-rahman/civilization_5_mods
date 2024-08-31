@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da007" version="1">
+  <Properties>
+    <Name>Civ Buffs - Assyria</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Royal Library buffed. Siege Tower buffed.</Teaser>
+    <Description>[NEWLINE]
+    Assyria is situationally a very strong or very weak civ. On higher difficulties, they are usually very weak due to being quickly outpaced. This mod buffs Assyria while keeping the current style of the civ.[NEWLINE]
+    * Royal Library gives +15 XP without needing to fill the Great Work slot.[NEWLINE]
+    * Siege Tower replaces Swordsman, upgrades to Musketman, and can attack other units.
+    </Description>
+    <Authors>m-j-rahman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="06C42CC077D28840F07A9350876710F0" import="0">xml/ub_library.xml</File>
+    <File md5="61970C0659F7026BDE917E5AE33AE7CB" import="0">xml/uu_tower.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+        <UpdateDatabase>xml/ub_library.xml</UpdateDatabase>
+        <UpdateDatabase>xml/uu_tower.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

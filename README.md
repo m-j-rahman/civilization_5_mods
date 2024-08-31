@@ -33,6 +33,11 @@ Restart the game if it is already running.
 
 ## Collection
 
+### Civ Buffs - Assyria:
+Assyria is situationally a very strong or very weak civ. On higher difficulties, they are usually very weak due to being quickly outpaced. This mod buffs Assyria while keeping the current style of the civ.
+* Royal Library gives +15 XP without needing to fill the Great Work slot.
+* Siege Tower replaces Swordsman, upgrades to Musketman, and can attack other units.
+
 ### Civ Buffs - Carthage:
 Carthage is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Carthage while keeping the current style of the civ.
 * Trait now also provides +50% total trade routes.

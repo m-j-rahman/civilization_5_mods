@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Building_DomainFreeExperiencePerGreatWork>
+		<Delete BuildingType="BUILDING_ROYAL_LIBRARY"/>
+	</Building_DomainFreeExperiencePerGreatWork>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY"/>
+			<Set Text="In addition to the [ICON_RESEARCH] Science output of the Library it replaces, the Royal Library also has a Great Work of Writing slot. It also provides extra XP to Units trained in this city. Only the Assyrians may build it."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP"/>
+			<Set Text="Unique Assyrian Library. +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City. +15 XP for all Units."/>
+		</Update>
+	</Language_en_US>
+
+</GameData>
