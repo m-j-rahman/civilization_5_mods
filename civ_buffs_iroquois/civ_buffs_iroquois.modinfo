@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da006" version="1">
+  <Properties>
+    <Name>Civ Buffs - Iroquois</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Trait replaced. Longhouse buffed. Mohawk Warrior buffed.</Teaser>
+    <Description>[NEWLINE]
+    The Iroquois are the weakest civ besides Venice. Their unique ability doesn't work as intended, their unique building is worse than the normal version, and their unique unit is usually pointless. This mod tries to fix all of that.[NEWLINE]
+    * Trait completely replaced. It now provides the Woodsman promotion to all military land units, and +1 Production from unimproved Forest and Jungle tiles.[NEWLINE]
+    * Longhouse is no longer cheaper to build, but now gives the same production bonus as the normal Workshop, as well as +1 Production from Forest and Jungle tiles.[NEWLINE]
+    * Mohawk Warrior now replaces Longswordsman instead of Swordsman. It is available at Metal Casting instead of Steel.
+    </Description>
+    <Authors>m-j-rahman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A82345DDB8917A716D9F4999FDAB82F7" import="0">xml/ua_trait.xml</File>
+    <File md5="06C42CC077D28840F07A9350876710F0" import="0">xml/ub_longhouse.xml</File>
+    <File md5="61970C0659F7026BDE917E5AE33AE7CB" import="0">xml/uu_mohawk.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+        <UpdateDatabase>xml/ua_trait.xml</UpdateDatabase>
+        <UpdateDatabase>xml/ub_longhouse.xml</UpdateDatabase>
+        <UpdateDatabase>xml/uu_mohawk.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

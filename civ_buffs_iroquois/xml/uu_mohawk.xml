@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR"/>
+			<Set>
+				<Class>UNITCLASS_LONGSWORDSMAN</Class>
+				<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+				<Combat>21</Combat>
+				<Cost>120</Cost>
+				<FaithCost>240</FaithCost>
+				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+				<AdvancedStartCost>25</AdvancedStartCost>
+				<Conscription>3</Conscription>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_IROQUOIAN_MOHAWKWARRIOR"/>
+			<Set>
+				<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			</Set>
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_IROQUOIS"/>
+			<Set>
+				<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			</Set>
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY"/>
+			<Set>
+				<Text>
+					The Mohawk Warrior is the Iroquoian unique unit, replacing the Longswordsman. The Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Also, unlike the Longswordsman, it does not require Iron to build.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR"/>
+			<Set>
+				<Text>
+					Strong, front-line land Unit of the Medieval Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Longswordsman which it replaces.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+</GameData>
