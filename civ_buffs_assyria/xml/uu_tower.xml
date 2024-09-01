@@ -6,8 +6,6 @@
 		<Update>
 			<Where Type="UNIT_ASSYRIAN_SIEGE_TOWER"/>
 			<Set>
-				<Class>UNITCLASS_SWORDSMAN</Class>
-				<Combat>14</Combat>
 				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
 			</Set>
@@ -29,15 +27,5 @@
 			<PromotionType>PROMOTION_ONLY_ATTACKS_CITIES</PromotionType>
 		</Delete>
 	</Unit_FreePromotions>
-
-	<Civilization_UnitClassOverrides>
-		<Update>
-			<Where CivilizationType="CIVILIZATION_ASSYRIA"/>
-			<Set>
-				<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
-				<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
-			</Set>
-		</Update>
-	</Civilization_UnitClassOverrides>
 
 </GameData>

@@ -6,7 +6,7 @@
 		<Update>
 			<Where Type="BUILDING_LONGHOUSE"/>
 			<Set>
-				<Cost>120</Cost>
+				<Cost>90</Cost>
 			</Set>
 		</Update>
 	</Buildings>
@@ -18,25 +18,5 @@
 			<Yield>10</Yield>
 		</Row>
 	</Building_YieldModifiers>
-
-	<Building_FeatureYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_FeatureYieldChanges>
-
-    <Language_en_US>
-        <Update>
-            <Where Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY"/>
-            <Set Text="The Longhouse is the Iroquois unique building, replacing the Workshop. As well as the usual production increase of the Workshop, it provides +1 Production from each worked Forest and Jungle tile."/>
-        </Update>
-        <Update>
-            <Where Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP"/>
-            <Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest and Jungle tile."/>
-        </Update>
-    </Language_en_US>
 
 </GameData>
