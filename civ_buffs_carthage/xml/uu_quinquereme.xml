@@ -42,7 +42,7 @@
         </Update>
         <Update>
             <Where Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME"/>
-            <Set Text="Strong Ancient Era Naval Unit used to dominate the seas through ranged attacks on naval units and cities. Gains experience toward promotions 50% faster than normal. Only the Carthaginians may build it."/>
+            <Set Text="Strong Ancient Era Naval Unit used to dominate the seas through ranged attacks. Gains experience toward promotions 50% faster than normal. Only the Carthaginians may build it."/>
         </Update>
     </Language_en_US>
 

@@ -5,9 +5,9 @@
     <Stability>Alpha</Stability>
     <Teaser>Royal Library buffed. Siege Tower buffed.</Teaser>
     <Description>[NEWLINE]
-    Assyria is situationally a very strong or very weak civ. On higher difficulties, they are usually very weak due to being quickly outpaced. This mod buffs Assyria while keeping the current style of the civ.[NEWLINE]
-    * Royal Library gives +15 XP without needing to fill the Great Work slot.[NEWLINE]
-    * Siege Tower can attack other units. It upgrades into Musketman instead of Trebuchet.
+    Assyria is usually a weak civ on higher difficulties, due to being quickly outpaced before they can take advantage of their bonuses. This mod buffs Assyria to make it an effective domination civ.[NEWLINE]
+    * Royal Library now gives +15 XP without needing to fill the Great Work slot (instead of +10 XP after filling the Great Work slot).[NEWLINE]
+    * Siege Tower now has 14 Combat Strength (up from 12) and can attack other units. It upgrades into Musketman (instead of Trebuchet).
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>

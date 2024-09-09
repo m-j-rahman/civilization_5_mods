@@ -6,6 +6,7 @@
 		<Update>
 			<Where Type="UNIT_ASSYRIAN_SIEGE_TOWER"/>
 			<Set>
+				<Combat>14</Combat>
 				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
 			</Set>

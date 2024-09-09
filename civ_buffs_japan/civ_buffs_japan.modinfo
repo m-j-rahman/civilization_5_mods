@@ -5,10 +5,10 @@
     <Stability>Alpha</Stability>
     <Teaser>Trait buffed. Zero replaced by Dojo. Samurai available earlier.</Teaser>
     <Description>[NEWLINE]
-    Japan is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Japan while keeping the current style of the civ.[NEWLINE]
-    * Trait now also provides a +10% Combat Bonus. +1 Culture from Atolls instead of +2.[NEWLINE]
-    * Zero replaced by Dojo, a Barracks replacement that gives +1 Culture and +2 Science.[NEWLINE]
-    * Samurai available at Metal Casting instead of Steel. It upgrades into Musketman instead of Rifleman.
+    Japan is one of the weakest civs. All of its bonuses look better than they actually are and are very situational. This mod buffs Japan to make it an effective domination civ.[NEWLINE]
+    * Trait now also provides a +10% Combat Bonus. +1 Culture from Atolls (instead of +2).[NEWLINE]
+    * Zero replaced by Dojo, a unique Barracks. It gives +3 Culture.[NEWLINE]
+    * Samurai now available at Metal Casting (instead of Steel). It upgrades into Musketman (instead of Rifleman). It has the Cover I promotion (instead of Shock I).
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>

@@ -5,10 +5,10 @@
     <Stability>Alpha</Stability>
     <Teaser>Trait replaced. Longhouse buffed. Mohawk Warrior buffed.</Teaser>
     <Description>[NEWLINE]
-    The Iroquois are the weakest civ besides Venice. Their unique ability doesn't work as intended, their unique building is worse than the normal version, and their unique unit is usually pointless. This mod tries to fix all of that.[NEWLINE]
+    The Iroquois are the weakest normal civ (i.e. besides Venice). Their unique ability doesn't work as intended, their unique building is worse than the normal version, and their unique unit is insignificant. This mod buffs the Iroquois to fix all of that.[NEWLINE]
     * Trait completely replaced. It now provides the Woodsman promotion to all military land units, as well as +1 Food from Camps and unimproved Forests.[NEWLINE]
-    * Longhouse now also gives the same production bonus as the normal Workshop and is cheaper to build.[NEWLINE]
-    * Mohawk Warrior now replaces Longswordsman instead of Swordsman. It is available at Metal Casting instead of Steel.
+    * Longhouse now also gives the same Production bonus as the normal Workshop (+10%) and costs 90 Production to build (down from 100, vs 120 for Workshop).[NEWLINE]
+    * Mohawk Warrior now replaces Longswordsman (instead of Swordsman). It is available at Metal Casting (instead of Steel).
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>

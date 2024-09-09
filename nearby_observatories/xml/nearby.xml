@@ -6,7 +6,7 @@
 		<Update>
 			<Where Type="BUILDING_OBSERVATORY"/>
 			<Set>
-				<Mountain>0</Mountain>
+				<Mountain>false</Mountain>
 				<NearbyMountainRequired>true</NearbyMountainRequired>
 			</Set>
 		</Update>

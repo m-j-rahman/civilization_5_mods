@@ -73,67 +73,12 @@
 		</Update>
 	</Unit_ClassUpgrades>
 
-
-<!-- Knight, Siamese Naresuan's Elephant, Songhai Mandekalu Cavalry, and Spanish Conquistador upgrade into Lancer instead of Cavalry. -->
-
-	<Units>
-		<Update>
-			<Where Type="UNIT_KNIGHT"/>
-			<Set>
-				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
-				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
-			</Set>
-		</Update>
-		<Update>
-			<Where Type="UNIT_SIAMESE_WARELEPHANT"/>
-			<Set>
-				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
-				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
-			</Set>
-		</Update>
-		<Update>
-			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
-			<Set>
-				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
-				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
-			</Set>
-		</Update>
-		<Update>
-			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
-			<Set>
-				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
-				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
-			</Set>
-		</Update>
-	</Units>
-
-	<Unit_ClassUpgrades>
-		<Update>
-			<Where UnitType="UNIT_KNIGHT"/>
-			<Set UnitClassType="UNITCLASS_LANCER"/>
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_SIAMESE_WARELEPHANT"/>
-			<Set UnitClassType="UNITCLASS_LANCER"/>
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY"/>
-			<Set UnitClassType="UNITCLASS_LANCER"/>
-		</Update>
-		<Update>
-			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
-			<Set UnitClassType="UNITCLASS_LANCER"/>
-		</Update>
-	</Unit_ClassUpgrades>
-
-
-<!-- Lancer, Ottoman Sipahi, and Swedish Hakkapeliitta have their Combat Strength increased from 25 to 28, to match the Polish Winged Hussar. They all upgrade into Cavalry instead of Anti-Tank Gun. -->
+<!-- Lancer, Ottoman Sipahi, and Swedish Hakkapeliitta upgrade into Cavalry instead of Anti-Tank Gun. -->
 
 	<Units>
 		<Update>
 			<Where Type="UNIT_LANCER"/>
 			<Set>
-				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
 			</Set>
@@ -141,7 +86,6 @@
 		<Update>
 			<Where Type="UNIT_OTTOMAN_SIPAHI"/>
 			<Set>
-				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
 			</Set>
@@ -149,7 +93,6 @@
 		<Update>
 			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
 			<Set>
-				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
 			</Set>

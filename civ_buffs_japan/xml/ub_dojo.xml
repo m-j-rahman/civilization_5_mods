@@ -36,12 +36,7 @@
 		<Row>
 			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 	</Building_Flavors>
 
@@ -49,12 +44,7 @@
 		<Row>
 			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
 		
@@ -66,7 +56,7 @@
 			<Text>"A dojo is a hall or place for immersive learning, experiential learning, or meditation. This is traditionally in the field of martial arts. The term literally means "place of the Way" in Japanese."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_STRATEGY">
-			<Text>The Dojo is the Japanese unique building, replacing the Barracks. It provides experience for military units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle. Unlike the Barracks, the Dojo also provides Culture and Science.</Text>
+			<Text>The Dojo is the Japanese unique building, replacing the Barracks. As well as providing experience for military units constructed in the city, the Dojo also provides [ICON_CULTURE] Culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_HELP">
 			<Text>+15 XP for all Units.</Text>
