@@ -58,6 +58,9 @@ Japan is one of the weakest civs. All of its bonuses look better than they actua
 ### Inspired Generals:
 The Great Generals I and II promotions are usually weak and have unclear descriptions. This mod renames Great Generals II to Inspired Generals and gives it a more helpful description. Units with the Great Generals I promotion now have Inspired Generals instead.
 
+### Nearby Observatories:
+Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain that is inside your territory, like the Machu Pichu and Neuschwanstein wonders.
+
 ### Unit Path Rework:
 This mod changes the stats and upgrade paths of melee and mounted units for better balance and variety.
 * Warrior and its unique replacements now upgrade into Spearman (instead of Swordsman). They also become obsolete at Civil Service (instead of Metal Casting). This makes them independant of Iron availability.
@@ -68,6 +71,4 @@ This mod changes the stats and upgrade paths of melee and mounted units for bett
 * Knight and its unique replacements now upgrade into Lancer (instead of Cavalry).
 * Lancer and its unique replacements now upgrade into Cavalry (instead of Anti-Tank Gun). They also all have 28 Combat Strength (up from 25), but no longer gain the Formation I promotion.
 
-### Nearby Observatories:
-Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain that is inside your territory, like the Machu Pichu and Neuschwanstein wonders.
 
