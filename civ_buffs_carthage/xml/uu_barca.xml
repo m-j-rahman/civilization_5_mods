@@ -101,10 +101,6 @@
         </Row>
         <Row>
             <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
-            <PromotionType>PROMOTION_GREAT_ADMIRAL</PromotionType>
-        </Row>
-        <Row>
-            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
             <PromotionType>PROMOTION_BARCA_LIGHTNING_SHIPS</PromotionType>
         </Row>
     </Unit_FreePromotions>
@@ -113,10 +109,6 @@
     <UnitPromotions_CivilianUnitType>
         <Row>
             <PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
-            <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
-        </Row>
-        <Row>
-            <PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
             <UnitType>UNIT_CARTHAGINIAN_BARCA</UnitType>
         </Row>
     </UnitPromotions_CivilianUnitType>
@@ -182,14 +174,14 @@
             "The Barcid family was a notable Punic (Phoenician) family in the ancient city of Carthage; many of its members were fierce enemies of the Roman Republic. "Barcid" is an adjectival form coined by historians; the actual byname was the Northwest Semitic Barca or Barcas, which means lightning."
             </Text>
         </Row>
-        <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_HELP">
-            <Text>
-            This Carthaginian Unique Great Person replaces the Great General. The Barca acts as both a Great General and a Great Admiral. The Barca also reduces the strength of nearby enemy units and moves at an increased rate.
-            </Text>
-        </Row>
         <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_STRATEGY">
             <Text>
-            The Barca is a Unique Great Person available to the Carthaginians, replacing the standard Great General. It provides the same bonuses as both a Great General and a Great Admiral, and it also gives enemy units in the same range a -15% Combat Strength penalty. Barcas also possess an increased movement rate.
+            The Barca is a Unique Great Person available to the Carthaginians, replacing the standard Great General. As well as providing the same bonuses as a Great General, it gives enemy units within 2 tiles a -15% Combat Strength penalty. Barcas are more mobile than standard Great Generals, both on land and while embarked. Thanks to this combination of bonuses, they can support both land and naval warfare.
+            </Text>
+        </Row>
+         <Row Tag="TXT_KEY_CIV5_CARTHAGINIAN_BARCA_HELP">
+            <Text>
+            This Carthaginian Unique Great Person replaces the Great General. As well as providing the same bonuses as a Great General, it gives enemy units within 2 tiles a -15% Combat Strength penalty. Barcas are more mobile than standard Great Generals, both on land and while embarked. Thanks to this combination of bonuses, they can support both land and naval warfare.
             </Text>
         </Row>
     </Language_en_US>

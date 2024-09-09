@@ -40,7 +40,7 @@ Assyria is usually a weak civ on higher difficulties, due to being quickly outpa
 
 ### Civ Buffs - Carthage:
 Carthage is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod buffs Carthage to make it an effective domination civ.
-* African Forest Elephant replaced by Barca, a unique Great General. It has higher Movement, debuffs nearby enemy units, and also acts as a Great Admiral.
+* African Forest Elephant replaced by Barca, a unique Great General. As well as strengthening nearby friendly units, it weakens nearby enemy units. It has higher movement on land and while embarked.
 * Quinquereme changed to a Naval Ranged unit. It has 10 Combat Strength, 11 Ranged Strength, 2 Range, Quick Study promotion, and upgrades into Galleass (instead of Caravel).
 
 ### Civ Buffs - Iroquois:
