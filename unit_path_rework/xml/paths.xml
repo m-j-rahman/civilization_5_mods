@@ -112,7 +112,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>4</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_U_PIKE_SHOT</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_U_SPANISH_TERCIO</UnitArtInfo>
 			<IconAtlas>DLC02_UNIT_ATLAS</IconAtlas>
 			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
