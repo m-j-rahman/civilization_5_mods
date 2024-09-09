@@ -58,11 +58,15 @@ Japan is one of the weakest civs. All of its bonuses look better than they actua
 ### Inspired Generals:
 The Great Generals I and II promotions are usually weak and have unclear descriptions. This mod renames Great Generals II to Inspired Generals and gives it a more helpful description. Units with the Great Generals I promotion now have Inspired Generals instead.
 
-### Melee Mounted Paths:
-This mod changes some unit upgrade paths to make more sense.
-* Warrior and its unique replacements upgrade into Spearman (instead of Swordsman). They also become obsolete at Civil Service (instead of Metal Casting).
-* Pikeman and Landsknecht upgrade into Musketman (instead of Lancer). Impi still upgrades into Rifleman.
-* Lancer and its unique replacements upgrade into Cavalry (instead of Anti-Tank Gun).
+### Unit Path Rework:
+This mod changes the stats and upgrade paths of melee and mounted units for better balance and variety.
+* Warrior and its unique replacements now upgrade into Spearman (instead of Swordsman). They also become obsolete at Civil Service (instead of Metal Casting). This makes them independant of Iron availability.
+* Swordsman and its unique replacements now have 16 Combat Strength (up from 14), except the Roman Legion which now has 18 Combat Strength (up from 17). This makes them competitive with the Pikeman.
+* Pike and Shot introduced as a standard unit. It is based on the Spanish Tercio, except with 21 Combat Strength and 150 Production Cost.
+* Spanish Tercio now replaces Pike and Shot (instead of Musketman). It keeps its 26 Combat Strength and has 150 Production Cost (down from 160).
+* Pikeman and Landsknecht now upgrade into Pike and Shot (instead of Lancer). Impi still upgrades into Rifleman. This keeps them in the same role rather than messing up the upgrade lines.
+* Knight and its unique replacements now upgrade into Lancer (instead of Cavalry).
+* Lancer and its unique replacements now upgrade into Cavalry (instead of Anti-Tank Gun). They also all have 28 Combat Strength (up from 25), but no longer gain the Formation I promotion.
 
 ### Nearby Observatories:
 Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain that is inside your territory, like the Machu Pichu and Neuschwanstein wonders.
