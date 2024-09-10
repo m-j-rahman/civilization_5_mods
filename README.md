@@ -63,8 +63,6 @@ Observatories are the only reason to settle cities adjacent to mountains. This m
 
 ### Unit Path Rework:
 This mod changes the stats and upgrade paths of melee and mounted units for better balance and variety.
-* Warrior and its unique replacements now upgrade into Spearman (instead of Swordsman). They also become obsolete at Civil Service (instead of Metal Casting). This makes them independant of Iron availability.
-* Swordsman and its unique replacements now have 16 Combat Strength (up from 14), except the Roman Legion which now has 18 Combat Strength (up from 17). This makes them competitive with the Pikeman.
 * Pike and Shot introduced as a standard unit. It is based on the Spanish Tercio, except with 21 Combat Strength and 150 Production Cost.
 * Spanish Tercio now replaces Pike and Shot (instead of Musketman). It keeps its 26 Combat Strength and has 150 Production Cost (down from 160).
 * Pikeman and Landsknecht now upgrade into Pike and Shot (instead of Lancer). Impi still upgrades into Rifleman. This keeps them in the same role rather than messing up the upgrade lines.
