@@ -2,30 +2,21 @@
 
 <GameData>
 
+    <Language_en_US>
+        <Update>
+            <Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
+            <Set Text="Military land units gain the Woodsman promotion, granting them double movement through Forest and Jungle tiles. +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from Camps."/>
+        </Update>
+    </Language_en_US>
+    
     <Traits>
         <Update>
             <Where Type="TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
-            <Set MoveFriendlyWoodsAsRoad=""/>
+            <Set>
+				<MoveFriendlyWoodsAsRoad>false</MoveFriendlyWoodsAsRoad>
+			</Set>
         </Update>
     </Traits>
-
-    <Trait_ImprovementYieldChanges>
-        <Row>
-            <TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
-            <ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
-            <YieldType>YIELD_FOOD</YieldType>
-            <Yield>1</Yield>
-        </Row>
-    </Trait_ImprovementYieldChanges>
-
-    <Trait_UnimprovedFeatureYieldChanges>
-        <Row>
-            <TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
-            <FeatureType>FEATURE_FOREST</FeatureType>
-            <YieldType>YIELD_FOOD</YieldType>
-            <Yield>1</Yield>
-        </Row>
-    </Trait_UnimprovedFeatureYieldChanges>
 
     <Trait_FreePromotionUnitCombats>
         <Row>
@@ -65,11 +56,19 @@
         </Row>
     </Trait_FreePromotionUnitCombats>
 
-    <Language_en_US>
-        <Update>
-            <Where Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST"/>
-            <Set Text="Military land units have the Woodsman promotion, allowing faster movement through Forests and Jungles. +1 [ICON_FOOD] Food from Camps and unimproved Forests."/>
-        </Update>
-    </Language_en_US>
+    <Trait_ImprovementYieldChanges>
+        <Row>
+            <TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+            <ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+            <ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+    </Trait_ImprovementYieldChanges>
 
 </GameData>

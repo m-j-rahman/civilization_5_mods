@@ -152,14 +152,14 @@
 <!-- Pikeman and Landsknecht upgrade into Pike and Shot instead of Lancer. -->
 	<Units>
 		<Update>
-			<Where Type="UNIT_PIKEMAN" ObsoleteTech="TECH_METALLURGY" GoodyHutUpgradeUnitClass="UNITCLASS_LANCER"/>
+			<Where Type="UNIT_PIKEMAN"/>
 			<Set>
 				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_PIKE_SHOT</GoodyHutUpgradeUnitClass>
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_GERMAN_LANDSKNECHT" GoodyHutUpgradeUnitClass="UNITCLASS_LANCER"/>
+			<Where Type="UNIT_GERMAN_LANDSKNECHT"/>
 			<Set>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_PIKE_SHOT</GoodyHutUpgradeUnitClass>
 			</Set>
@@ -168,11 +168,11 @@
 	
 	<Unit_ClassUpgrades>
 		<Update>
-			<Where UnitType="UNIT_PIKEMAN" UnitClassType="UNITCLASS_LANCER"/>
+			<Where UnitType="UNIT_PIKEMAN"/>
 			<Set UnitClassType="UNITCLASS_PIKE_SHOT"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_GERMAN_LANDSKNECHT" UnitClassType="UNITCLASS_LANCER"/>
+			<Where UnitType="UNIT_GERMAN_LANDSKNECHT"/>
 			<Set UnitClassType="UNITCLASS_PIKE_SHOT"/>
 		</Update>
 	</Unit_ClassUpgrades>
@@ -181,28 +181,28 @@
 
 	<Units>
 		<Update>
-			<Where Type="UNIT_KNIGHT" ObsoleteTech="TECH_MILITARY_SCIENCE" GoodyHutUpgradeUnitClass="UNITCLASS_CAVALRY"/>
+			<Where Type="UNIT_KNIGHT"/>
 			<Set>
 				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_SIAMESE_WARELEPHANT" ObsoleteTech="TECH_MILITARY_SCIENCE" GoodyHutUpgradeUnitClass="UNITCLASS_CAVALRY"/>
+			<Where Type="UNIT_SIAMESE_WARELEPHANT"/>
 			<Set>
 				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY" ObsoleteTech="TECH_MILITARY_SCIENCE" GoodyHutUpgradeUnitClass="UNITCLASS_CAVALRY"/>
+			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
 			<Set>
 				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_SPANISH_CONQUISTADOR" ObsoleteTech="TECH_MILITARY_SCIENCE" GoodyHutUpgradeUnitClass="UNITCLASS_CAVALRY"/>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
 			<Set>
 				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
@@ -212,19 +212,19 @@
 
 	<Unit_ClassUpgrades>
 		<Update>
-			<Where UnitType="UNIT_KNIGHT" UnitClassType="UNITCLASS_CAVALRY"/>
+			<Where UnitType="UNIT_KNIGHT"/>
 			<Set UnitClassType="UNITCLASS_LANCER"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SIAMESE_WARELEPHANT" UnitClassType="UNITCLASS_CAVALRY"/>
+			<Where UnitType="UNIT_SIAMESE_WARELEPHANT"/>
 			<Set UnitClassType="UNITCLASS_LANCER"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY" UnitClassType="UNITCLASS_CAVALRY"/>
+			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY"/>
 			<Set UnitClassType="UNITCLASS_LANCER"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SPANISH_CONQUISTADOR" UnitClassType="UNITCLASS_CAVALRY"/>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
 			<Set UnitClassType="UNITCLASS_LANCER"/>
 		</Update>
 	</Unit_ClassUpgrades>
@@ -234,7 +234,7 @@
 
 	<Units>
 		<Update>
-			<Where Type="UNIT_LANCER" Combat="25" ObsoleteTech="TECH_COMBINED_ARMS" GoodyHutUpgradeUnitClass="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where Type="UNIT_LANCER"/>
 			<Set>
 				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
@@ -242,7 +242,7 @@
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_OTTOMAN_SIPAHI" Combat="25" ObsoleteTech="TECH_COMBINED_ARMS" GoodyHutUpgradeUnitClass="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where Type="UNIT_OTTOMAN_SIPAHI"/>
 			<Set>
 				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
@@ -250,7 +250,7 @@
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA" Combat="25" ObsoleteTech="TECH_COMBINED_ARMS" GoodyHutUpgradeUnitClass="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
 			<Set>
 				<Combat>28</Combat>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
@@ -258,7 +258,7 @@
 			</Set>
 		</Update>
 		<Update>
-			<Where Type="UNIT_POLISH_WINGED_HUSSAR" ObsoleteTech="TECH_COMBINED_ARMS" GoodyHutUpgradeUnitClass="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR"/>
 			<Set>
 				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
 				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
@@ -268,19 +268,19 @@
 
 	<Unit_ClassUpgrades>
 		<Update>
-			<Where UnitType="UNIT_LANCER" UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where UnitType="UNIT_LANCER"/>
 			<Set UnitClassType="UNITCLASS_CAVALRY"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_OTTOMAN_SIPAHI" UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where UnitType="UNIT_OTTOMAN_SIPAHI"/>
 			<Set UnitClassType="UNITCLASS_CAVALRY"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA" UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA"/>
 			<Set UnitClassType="UNITCLASS_CAVALRY"/>
 		</Update>
 		<Update>
-			<Where UnitType="UNIT_POLISH_WINGED_HUSSAR" UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Where UnitType="UNIT_POLISH_WINGED_HUSSAR"/>
 			<Set UnitClassType="UNITCLASS_CAVALRY"/>
 		</Update>
 	</Unit_ClassUpgrades>

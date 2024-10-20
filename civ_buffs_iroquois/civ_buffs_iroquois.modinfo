@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="0b32356f-83d9-4f62-82e1-8ced168da008" version="1">
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da008" version="201">
   <Properties>
     <Name>Civ Buffs - Iroquois</Name>
-    <Stability>Alpha</Stability>
-    <Teaser>Trait replaced. Longhouse buffed. Mohawk Warrior buffed.</Teaser>
+    <Teaser>Trait, Longhouse, and Mohawk Warrior reworked.</Teaser>
     <Description>[NEWLINE]
-    The Iroquois are the weakest normal civ (i.e. besides Venice). Their unique ability doesn't work as intended, their unique building is worse than the normal version, and their unique unit is insignificant. This mod buffs the Iroquois to fix all of that.[NEWLINE]
-    * Trait completely replaced. It now provides the Woodsman promotion to all military land units, as well as +1 Food from Camps and unimproved Forests.[NEWLINE]
-    * Longhouse now also gives the same Production bonus as the normal Workshop (+10%) and costs 90 Production to build (down from 100, vs 120 for Workshop).[NEWLINE]
-    * Mohawk Warrior now replaces Longswordsman (instead of Swordsman). It is available at Metal Casting (instead of Steel).
+    The Iroquois are the weakest normal civ (i.e. besides Venice). Their ability doesn't work as intended, and both of their uniques are insignificant if not detrimental. This mod buffs the Iroquois to make them stronger and more fun to play.[NEWLINE][NEWLINE]
+    * Trait reworked. Military land units gain the Woodsman promotion, granting them double movement through Forest and Jungle tiles. +1 Production and +1 Gold from Camps.[NEWLINE][NEWLINE]
+    * Longhouse reworked. It is now a Unique Improvement (instead of a Workshop replacement). It is unlocked by Construction. It can be built on Forest and Jungle tiles (without removing them). It gives +2 Production. It also gives +2 Gold after researching Guilds.[NEWLINE][NEWLINE]
+    * Mohawk Warrior reworked. It now replaces Scout (instead of Swordsman). It costs 45 Production (vs 25). It has 8 Combat Strength (vs 5). It upgrades into Composite Bowman and can do so even without Ancient Ruins.[NEWLINE][NEWLINE]
+    To do - Longhouse currently uses the same icon and model as the Brazilwood Camp. A new one would be nicer, but it works fine without.
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -28,13 +28,13 @@
   <Blocks />
   <Files>
     <File md5="A82345DDB8917A716D9F4999FDAB82F7" import="0">xml/ua_trait.xml</File>
-    <File md5="06C42CC077D28840F07A9350876710F0" import="0">xml/ub_longhouse.xml</File>
+    <File md5="06C42CC077D28840F07A9350876710F0" import="0">xml/ui_longhouse.xml</File>
     <File md5="61970C0659F7026BDE917E5AE33AE7CB" import="0">xml/uu_mohawk.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
         <UpdateDatabase>xml/ua_trait.xml</UpdateDatabase>
-        <UpdateDatabase>xml/ub_longhouse.xml</UpdateDatabase>
+        <UpdateDatabase>xml/ui_longhouse.xml</UpdateDatabase>
         <UpdateDatabase>xml/uu_mohawk.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>

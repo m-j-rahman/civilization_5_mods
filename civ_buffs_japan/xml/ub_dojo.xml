@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <GameData>
-
-    <Civilization_UnitClassOverrides>
-	    <Delete UnitType="UNIT_JAPANESE_ZERO"/>
-	</Civilization_UnitClassOverrides>
 	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO">
+			<Text>Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JAPANESE_DOJO_TEXT">
+			<Text>"A dojo is a hall or place for immersive learning, experiential learning, or meditation. This is traditionally in the field of martial arts. The term literally means "place of the Way" in Japanese."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_STRATEGY">
+			<Text>The Dojo is the Japanese unique building, replacing the Barracks. As well as providing experience for military units constructed in the city, the Dojo also provides [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_HELP">
+			<Text>+15 XP for all Units.</Text>
+		</Row>
+	</Language_en_US>
+
     <Buildings>
 		<Row>
 			<Type>BUILDING_JAPANESE_DOJO</Type>
@@ -47,21 +58,14 @@
 			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
-		
-	<Language_en_US>
-		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO">
-			<Text>Dojo</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JAPANESE_DOJO_TEXT">
-			<Text>"A dojo is a hall or place for immersive learning, experiential learning, or meditation. This is traditionally in the field of martial arts. The term literally means "place of the Way" in Japanese."</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_STRATEGY">
-			<Text>The Dojo is the Japanese unique building, replacing the Barracks. As well as providing experience for military units constructed in the city, the Dojo also provides [ICON_CULTURE] Culture.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_JAPANESE_DOJO_HELP">
-			<Text>+15 XP for all Units.</Text>
-		</Row>
-	</Language_en_US>
+
+    <Civilization_UnitClassOverrides>
+		<Delete>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+		</Delete>
+	</Civilization_UnitClassOverrides>
 
     <Civilization_BuildingClassOverrides>
 		<Row>

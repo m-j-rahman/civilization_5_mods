@@ -2,6 +2,22 @@
 
 <GameData>
 
+    <Language_en_US>
+        <Update>
+            <Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
+            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
+        </Update>
+    </Language_en_US>
+
+    <Language_en_US>
+        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
+            <Text>Bushido</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
+            <Text>+10% Combat Bonus</Text>
+        </Row>
+    </Language_en_US>
+
     <UnitPromotions>
         <Row>
             <Type>PROMOTION_BUSHIDO</Type>
@@ -17,15 +33,6 @@
             <PediaEntry>TXT_KEY_PROMOTION_BUSHIDO</PediaEntry>
         </Row>
     </UnitPromotions>
-
-    <Language_en_US>
-        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
-            <Text>Bushido</Text>
-        </Row>
-        <Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-            <Text>+10% Combat Bonus</Text>
-        </Row>
-    </Language_en_US>
 
     <Trait_FreePromotionUnitCombats>
         <Row>
@@ -110,12 +117,5 @@
             </Set>
         </Update>
     </Trait_UnimprovedFeatureYieldChanges>
-
-    <Language_en_US>
-        <Update>
-            <Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
-            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
-        </Update>
-     </Language_en_US>
 
 </GameData>

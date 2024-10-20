@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_LONGHOUSE">
+			<Text>
+				Longhouse
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LONGHOUSE_TEXT">
+			<Text>
+				For much of their history, many of the Iroquois people lived in villages containing one or more "Longhouses" communal buildings constructed of wood saplings sheathed in elm bark. In fact, the Iroquois call themselves "Hodenosaunee," which translates into "People of the Longhouse." The longhouses ranged from 40 to 400 feet in length and some 25 feet wide. They were divided into compartments by inner partitions, each connected by an open center aisle. Several compartments would share a cooking fire in the center aisle, with an opening in the roof above acting as a chimney.[NEWLINE][NEWLINE]Longhouses are efficient structures, cheaper to construct and heat than individual dwellings, thus requiring fewer natural resources than other types of homes. They are representative of the Iroquois' cultural desire to survive and thrive in harmony with the environment around them.[NEWLINE][NEWLINE]A Longhouse can only be built on a Forest or Jungle tile, and will also generate +2 [ICON_GOLD] Gold once Guilds is researched.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LONGHOUSE_HELP">
+			<Text>
+				A Longhouse can only be built on a Forest or Jungle tile. It provides additional [ICON_PRODUCTION] Production. After the Guilds technology is researched it also provides extra [ICON_GOLD] Gold.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LONGHOUSE">
+			<Text>
+				Construct a [LINK=IMPROVEMENT_LONGHOUSE]Longhouse[\LINK]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LONGHOUSE_HELP">
+			<Text>
+				Constructs a Longhouse, which increases the amount of [ICON_PRODUCTION] Production provided by this tile. Also provides [ICON_GOLD] Gold once Guilds has been researched.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LONGHOUSE_REC">
+			<Text>
+				It will increase the amount of [ICON_PRODUCTION] Production provided by this tile. Also provides [ICON_GOLD] Gold once Guilds has been researched.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_LONGHOUSE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LONGHOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LONGHOUSE_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_LONGHOUSE_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_BRAZILWOOD_CAMP</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
+			<RequiresFeature>true</RequiresFeature>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LONGHOUSE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<Improvement_ValidFeatures>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LONGHOUSE</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LONGHOUSE</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LONGHOUSE</ImprovementType>
+			<TechType>TECH_GUILDS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<Builds>
+		<Row>
+			<Type>BUILD_LONGHOUSE</Type>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_LONGHOUSE</ImprovementType>
+			<Description>TXT_KEY_BUILD_LONGHOUSE</Description>
+			<Help>TXT_KEY_BUILD_LONGHOUSE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_LONGHOUSE_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_B</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</Builds>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_LONGHOUSE</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Civilization_BuildingClassOverrides>
+	    <Delete>
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+		</Delete>
+	</Civilization_BuildingClassOverrides>
+
+</GameData>

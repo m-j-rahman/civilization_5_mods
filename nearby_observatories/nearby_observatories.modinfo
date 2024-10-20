@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="0b32356f-83d9-4f62-82e1-8ced168da001" version="1">
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da001" version="301">
   <Properties>
     <Name>Nearby Observatories</Name>
-    <Stability>Alpha</Stability>
     <Teaser>Allows observatories in cities within 2 tiles of a mountain that is inside your territory.</Teaser>
     <Description>Observatories are the only reason to settle cities adjacent to mountains. This mod makes them available in cities within 2 tiles of a mountain that is inside your territory, like the Machu Pichu and Neuschwanstein wonders.</Description>
     <Authors>m-j-rahman</Authors>

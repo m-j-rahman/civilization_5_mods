@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="0b32356f-83d9-4f62-82e1-8ced168da003" version="1">
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da003" version="301">
   <Properties>
     <Name>Inspired Generals</Name>
-    <Stability>Alpha</Stability>
     <Teaser>The Great Generals I and II promotions are replaced by the Inspired Generals promotion.</Teaser>
     <Description>The Great Generals I and II promotions are usually weak and have unclear descriptions. This mod renames Great Generals II to Inspired Generals and gives it a more helpful description. Units with the Great Generals I promotion now have Inspired Generals instead.</Description>
     <Authors>m-j-rahman</Authors>

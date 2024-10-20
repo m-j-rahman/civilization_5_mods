@@ -2,58 +2,100 @@
 
 <GameData>
 
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY"/>
+			<Set Text="The Mohawk Warrior is the Iroquoian unique unit, replacing the Scout. It explores as well as a Scout and fights almost as well as a Warrior. Unlike the Scout, it can be upgraded into a Composite Bowman. Costs more than a Scout."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR"/>
+			<Set Text="Excellent at exploring and fearsome in combat, this Iroquois Unique Unit replaces the Scout. Unlike the Scout, it can be upgraded into a Composite Bowman."/>
+		</Update>
+	</Language_en_US>
+
 	<Units>
 		<Update>
 			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR"/>
 			<Set>
-				<Class>UNITCLASS_LONGSWORDSMAN</Class>
-				<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-				<Combat>21</Combat>
-				<Cost>120</Cost>
-				<FaithCost>240</FaithCost>
-				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
-				<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
-				<AdvancedStartCost>25</AdvancedStartCost>
-				<Conscription>3</Conscription>
+				<Class>UNITCLASS_SCOUT</Class>
+				<PrereqTech></PrereqTech>
+				<Combat>8</Combat>
+				<Cost>45</Cost>
+				<FaithCost>50</FaithCost>
+				<CombatClass>UNITCOMBAT_RECON</CombatClass>
+				<HurryCostModifier>0</HurryCostModifier>
+				<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+				<NoBadGoodies>true</NoBadGoodies>
+				<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_COMPOSITE_BOWMAN</GoodyHutUpgradeUnitClass>
+				<AdvancedStartCost>10</AdvancedStartCost>
+				<Conscription>0</Conscription>
 			</Set>
 		</Update>
 	</Units>
 
+	<Unit_AITypes>
+		<Delete>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
 	<Unit_ClassUpgrades>
-		<Update>
-			<Where UnitType="UNIT_IROQUOIAN_MOHAWKWARRIOR"/>
-			<Set>
-				<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-			</Set>
-		</Update>
+		<Delete>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
+		</Row>
 	</Unit_ClassUpgrades>
 
-	<Civilization_UnitClassOverrides>
-		<Update>
-			<Where CivilizationType="CIVILIZATION_IROQUOIS"/>
-			<Set>
-				<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
-			</Set>
-		</Update>
-	</Civilization_UnitClassOverrides>
+	<Unit_Flavors>
+		<Delete>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Delete>
+		<Delete>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+	</Unit_Flavors>
 
-	<Language_en_US>
-		<Update>
-			<Where Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY"/>
-			<Set>
-				<Text>
-					The Mohawk Warrior is the Iroquoian unique unit, replacing the Longswordsman. The Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Also, unlike the Longswordsman, it does not require Iron to build.
-				</Text>
-			</Set>
-		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR"/>
-			<Set>
-				<Text>
-					Strong, front-line land Unit of the Medieval Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Longswordsman which it replaces.
-				</Text>
-			</Set>
-		</Update>
-	</Language_en_US>
+	<Unit_FreePromotions>
+		<Delete>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<PromotionType>PROMOTION_MOHAWK</PromotionType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Civilization_UnitClassOverrides>
+		<Delete>
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+		</Delete>
+		<Row>
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
 
 </GameData>
