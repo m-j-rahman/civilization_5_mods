@@ -55,7 +55,7 @@
             <Text>Lightning Ships</Text>
         </Row>
         <Row Tag="TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS_HELP">
-            <Text>3 Extra Movement while Embarked.</Text>
+            <Text>2 Extra Movement while Embarked.</Text>
         </Row>
     </Language_en_US>
 
@@ -79,7 +79,7 @@
             <Description>TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS</Description>
             <Help>TXT_KEY_PROMOTION_BARCA_LIGHTNING_SHIPS_HELP</Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
-            <ExtraNavalMovement>3</ExtraNavalMovement>
+            <ExtraNavalMovement>2</ExtraNavalMovement>
             <PortraitIndex>59</PortraitIndex>
             <IconAtlas>ABILITY_ATLAS</IconAtlas>
             <PediaType>PEDIA_ATTRIBUTES</PediaType>

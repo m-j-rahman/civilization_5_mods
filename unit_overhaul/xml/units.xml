@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+<!-- Commando introduced as a rework of the Marine. It costs 375 Production and has 60 Strength, 3 Movement, 3 Sight, Amphibious, Embarkation with Defense, and ignores terrain costs. -->
+
+	<UnitClasses>
+		<Update>
+			<Where Type="UNITCLASS_MARINE"/>
+			<Set>
+				<Description>TXT_KEY_UNIT_COMMANDO</Description>
+				<DefaultUnit>UNIT_COMMANDO</DefaultUnit>
+			</Set>
+		</Update>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MARINE</Class>
+			<Type>UNIT_COMMANDO</Type>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Combat>60</Combat>
+			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_COMMANDO</Description>
+			<Civilopedia>TXT_KEY_CIV5_COMMANDO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_COMMANDO_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_COMMANDO</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PENICILLIN</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MARINE</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MARINE</UnitArtInfo>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COMMANDO</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO">
+			<Text>
+				Commando
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
+			<Text>
+				A commando is a special forces soldier who is trained and equipped to conduct special operations. In many miliaries, they are used to rescue hostages and board enemy ships.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_STRATEGY">
+			<Text>
+				The Commando is a strong recon unit that can excel at both scouting and skirmishing. It has extra movement and sight, is not slowed by rough terrain, and has combat bonuses while embarked.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO">
+			<Text>
+				Atomic Era recon unit with high movement and sight. It is not slowed by rough terrain and has combat bonuses while embarked.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+<!-- Explorer introduced as a rework of the existing unit from the Scramble for Africa scenario. It is unlocked by Rifling and upgrades to Commando. It costs 150 Production and has 20 Strength, 3 Movement, 3 Sight, and ignores terrain costs. -->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_NEW_EXPLORER</Type>
+			<Description>TXT_KEY_UNIT_NEW_EXPLORER</Description>
+			<DefaultUnit>UNIT_NEW_EXPLORER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_NEW_EXPLORER</Class>
+			<Type>UNIT_NEW_EXPLORER</Type>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Combat>20</Combat>
+			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_NEW_EXPLORER</Description>
+			<Civilopedia>TXT_KEY_CIV5_NEW_EXPLORER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_NEW_EXPLORER_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_NEW_EXPLORER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PENICILLIN</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MARINE</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXPLORER</UnitArtInfo>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_NEW_EXPLORER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_NEW_EXPLORER</UnitType>
+			<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_NEW_EXPLORER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NEW_EXPLORER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NEW_EXPLORER</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_NEW_EXPLORER">
+			<Text>
+				Explorer
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEW_EXPLORER_TEXT">
+			<Text>
+				Explorers undertook expeditions seeking legendary wonders, "lost" native civilizations, and scientific knowledge. Some were medical missionaries, some sought adventure, and others were merchants seeking new opportunities for profit.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEW_EXPLORER_STRATEGY">
+			<Text>
+				The Explorer is a next-generation Scout. It is stronger, faster, and can see farther.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEW_EXPLORER_HELP">
+			<Text>
+				Industrial Era recon unit with high movement and sight. It is not slowed by rough terrain.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+<!-- Scout and Shoshone Pathfinder now upgrade to Explorer. Via ancient ruins, they still upgrade to Archer and Composite Bowman respectively.[NEWLINE][NEWLINE] -->
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitClassType>UNITCLASS_NEW_EXPLORER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitClassType>UNITCLASS_NEW_EXPLORER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+
+<!-- Pike and Shot is introduced as a standard unit. It is based on the Spanish Tercio, except with 20 Combat Strength and 135 Production Cost. -->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_PIKE_SHOT</Type>
+			<Description>TXT_KEY_UNIT_PIKE_SHOT</Description>
+			<DefaultUnit>UNIT_PIKE_SHOT</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_PIKE_SHOT</Class>
+			<Type>UNIT_PIKE_SHOT</Type>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>20</Combat>
+			<Cost>135</Cost>
+			<FaithCost>270</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PIKE_SHOT</Description>
+			<Civilopedia>TXT_KEY_CIV5_PIKE_SHOT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_PIKE_SHOT_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_PIKE_SHOT_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_SPANISH_TERCIO</UnitArtInfo>
+			<IconAtlas>DLC02_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_PIKE_SHOT</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_PIKE_SHOT">
+			<Text>
+				Pike and Shot
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIKE_SHOT_TEXT">
+			<Text>
+				The Pike and Shot is a brilliant military innovation consisting of a mixed formation of pikemen and arquebusiers (soldiers armed with extremely primitive firearms). The pike and shot was often deployed in a checkerboard formation, with pikemen and arquebusiers set in alternating supporting blocks. The advantages of this arrangement are obvious: the arquebusiers can attack the enemy at distance, and the pikemen can take over in close combat. This formation would come to dominate Renaissance warfare for more than a century.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIKE_SHOT_STRATEGY">
+			<Text>
+				The Pike and Shot is a next-generation Pikeman, armed with a mix of pikes and early guns. It receives a bonus when fighting against mounted units.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIKE_SHOT_HELP">
+			<Text>
+				Renaissance Era infantry unit with a bonus against mounted units.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+<!-- Spanish Tercio now replaces Pike and Shot (instead of Musketman). It has 135 Production Cost, but keeps its 26 Combat Strength. -->
+
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SPAIN" UnitType="UNIT_SPANISH_TERCIO"/>
+			<Set UnitClassType="UNITCLASS_PIKE_SHOT"/>
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_SPANISH_TERCIO" CLASS="UNITCLASS_MUSKETMAN"/>
+			<Set>
+				<Class>UNITCLASS_PIKE_SHOT</Class>
+				<Cost>135</Cost>
+				<FaithCost>270</FaithCost>
+			</Set>
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY"/>
+			<Set>
+				<Text>
+					The Tercio is one of two Spanish Unique Units, replacing the Pike and Shot. This Unit is stronger in combat than the Pike and Shot.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP"/>
+			<Set>
+				<Text>
+					Dominant military Unit of the Renaissance Era. Only Spain may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Pike and Shot which it replaces.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+	
+<!-- Pikeman and Landsknecht upgrade into Pike and Shot (instead of Lancer). -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_PIKEMAN"/>
+			<Set>
+				<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_PIKE_SHOT</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GERMAN_LANDSKNECHT"/>
+			<Set>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_PIKE_SHOT</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+	</Units>
+	
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set UnitClassType="UNITCLASS_PIKE_SHOT"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_LANDSKNECHT"/>
+			<Set UnitClassType="UNITCLASS_PIKE_SHOT"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+<!-- Knight and its unique replacements now upgrade into Lancer (instead of Cavalry). -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_KNIGHT"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set>
+				<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
+				<Set>
+					<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+					<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+				</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARABIAN_CAMELARCHER"/>
+				<Set>
+					<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+					<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+				</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MONGOLIAN_KESHIK"/>
+				<Set>
+					<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+					<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
+				</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_CAMELARCHER"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MONGOLIAN_KESHIK"/>
+			<Set UnitClassType="UNITCLASS_LANCER"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+
+<!-- Lancer and its unique replacements now upgrade into Cavalry (instead of Anti-Tank Gun) and are made obsolete by Combustion (instead of Combined Arms). They no longer have Formation I, but have 28 Strength (up from 25) and the Heavy Charge ability (which is now lost on upgrade). -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_LANCER"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_OTTOMAN_SIPAHI"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set>
+				<Combat>28</Combat>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set>
+				<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_LANCER"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OTTOMAN_SIPAHI"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Unit_FreePromotions>
+		<Delete>
+			<UnitType>UNIT_LANCER</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+		<Delete>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+		<Delete>
+			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+		<Delete>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_LANCER</UnitType>
+			<PromotionType>PROMOTION_HEAVY_CHARGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<PromotionType>PROMOTION_HEAVY_CHARGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
+			<PromotionType>PROMOTION_HEAVY_CHARGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+    <UnitPromotions>
+		<Update>
+			<Where Type="PROMOTION_HEAVY_CHARGE"/>
+			<Set>
+				<LostWithUpgrade>true</LostWithUpgrade>
+			</Set>
+		</Update>
+    </UnitPromotions>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_LANCER_STRATEGY"/>
+			<Set>
+				<Text>
+					The Lancer is the Renaissance horse unit that comes between the Knight and the Cavalry unit. It is more powerful than the Knight, and forces defenders to retreat when it inflicts more damage than it receives.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_LANCER"/>
+			<Set>
+				<Text>
+					Mounted Unit capable of fighting toe-to-toe with contemporary infantry units. Forces defenders to retreat when it inflicts more damage than it receives.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SIPAHI"/>
+			<Set>
+				<Text>
+					Heavy Mounted Unit. This Unit is faster and can see further than the Lancer, which it replaces. Forces defenders to retreat when it inflicts more damage than it receives. May only be built by the Ottomans.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA"/>
+			<Set>
+				<Text>
+					Elite mounted Unit that specializes in working with Great Generals. Forces defenders to retreat when it inflicts more damage than it receives. Only the Swedish may build it.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_WINGED_HUSSAR"/>
+			<Set>
+				<Text>
+					Heavy Mounted Unit. This unit is faster and more powerful than the Lancer, which it replaces. Forces defenders to retreat when it inflicts more damage than it receives. May only be built by the Polish.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+
+	<!-- Anti-Tank Gun is now unlocked by Ballistics (instead of Combined Arms). It has 60 Strength (up from 50). -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_ANTI_TANK_GUN"/>
+			<Set>
+				<Combat>60</Combat>
+				<PrereqTech>TECH_BALLISTICS</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+
+
+    <!-- Bazooka is now unlocked by Rocketry (instead of Nuclear Fission). It has 80 Strength and Ranged Strength (down from 85), but has a 50% bonus vs Armor units. -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_BAZOOKA"/>
+			<Set>
+				<Combat>80</Combat>
+				<RangedCombat>80</RangedCombat>
+				<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+
+    <Language_en_US>
+        <Row Tag="TXT_KEY_PROMOTION_BAZOOKA">
+            <Text>Bazooka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_BAZOOKA_HELP">
+            <Text>Bonus vs Armored (50)</Text>
+        </Row>
+    </Language_en_US>
+
+    <UnitPromotions>
+        <Row>
+            <Type>PROMOTION_BAZOOKA</Type>
+            <Description>TXT_KEY_PROMOTION_BAZOOKA</Description>
+            <Help>TXT_KEY_PROMOTION_BAZOOKA_HELP</Help>
+            <Sound>AS2D_IF_LEVELUP</Sound>
+            <PortraitIndex>59</PortraitIndex>
+            <IconAtlas>ABILITY_ATLAS</IconAtlas>
+            <PediaType>PEDIA_ATTRIBUTES</PediaType>
+            <PediaEntry>TXT_KEY_PROMOTION_BAZOOKA</PediaEntry>
+        </Row>
+    </UnitPromotions>
+
+	<UnitPromotions_UnitCombatMods>
+		<Row>
+			<PromotionType>PROMOTION_BAZOOKA</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<Modifier>50</Modifier>
+		</Row>
+	</UnitPromotions_UnitCombatMods>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<PromotionType>PROMOTION_BAZOOKA</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+    <!-- Tank now has 80 Strength (up from 70). German Panzer now has Enhanced Flank Attack, since it already had 80 Strength. -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_TANK"/>
+			<Set>
+				<Combat>80</Combat>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<PromotionType>PROMOTION_FLANK_ATTACK_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+    <!-- Helicopter Gunship now requires Oil (instead of Aluminum). It has 80 Strength (up from 60). -->
+
+	<Units>
+		<Update>
+			<Where Type="UNIT_HELICOPTER_GUNSHIP"/>
+			<Set>
+				<Combat>80</Combat>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_ResourceQuantityRequirements>
+		<Delete>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+
+    <!-- Battleship now upgrades into Missile Cruiser. -->
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set UnitClassType="UNITCLASS_MISSILE_CRUISER"/>
+		</Update>
+	</Unit_ClassUpgrades>
+
+
+    <!-- Missile Cruiser now has Indirect Fire. -->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+</GameData>

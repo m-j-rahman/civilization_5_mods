@@ -17,6 +17,7 @@
         <Update>
             <Where Type="UNIT_CARTHAGINIAN_QUINQUEREME"/>
             <Set>
+                <Combat>12</Combat>
                 <WorkRate>100</WorkRate>
             </Set>
         </Update>
@@ -40,10 +41,6 @@
         <Row>
             <UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
             <PromotionType>PROMOTION_MOBILITY</PromotionType>
-        </Row>
-        <Row>
-            <UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
-            <PromotionType>PROMOTION_SENTRY</PromotionType>
         </Row>
     </Unit_FreePromotions>
 

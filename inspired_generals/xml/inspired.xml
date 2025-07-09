@@ -19,7 +19,7 @@
 		<Update>
 			<Where Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP"/>
 			<Set>
-				<Text>Combat contributes double the amount of points towards earning a Great General.</Text>
+				<Text>Double Great General points earned.</Text>
 			</Set>
 		</Update>
 	</Language_en_US>

@@ -6,7 +6,7 @@
     <Description>[NEWLINE][NEWLINE]
     Carthage is one of the weakest civs. All of its bonuses look better than they actually are and quickly become redundant. This mod makes Carthage stronger and more fun to play.[NEWLINE][NEWLINE]
     * African Forest Elephant replaced by Barca, a unique Great General. As well as strengthening nearby friendly units, it weakens nearby enemy units. It has higher movement on land and while embarked.[NEWLINE][NEWLINE]
-    * Quinquereme buffed. It now has the Mobility and Sentry promotions. It can also build Fishing Boats without being consumed.
+    * Quinquereme buffed. It now has 12 Strength (down from 13), but has the Mobility promotion and can build Fishing Boats without being consumed (like the Samurai).
     </Description>
     <Authors>m-j-rahman</Authors>
     <HideSetupGame>0</HideSetupGame>

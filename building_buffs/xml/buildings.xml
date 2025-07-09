@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+
+<!-- Granary: Now also provides +1 Food from Bison. -->
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Language_en_US>
+        <Update>
+			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP"/>
+			<Set>
+				<Text>
+					Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+
+<!-- Mint: Now also provides +2 Gold from Copper and can be built with improved Copper nearby. -->
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_LocalResourceAnds>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MINT_STRATEGY"/>
+			<Set>
+				<Text>
+					The Mint can only be constructed in a city with improved gold, silver, or copper resources nearby. The Mint increases the [ICON_GOLD] Gold output of each such resource the city has access to.
+				</Text>
+			</Set>
+		</Update>
+        <Update>
+			<Where Tag="TXT_KEY_BUILDING_MINT_HELP"/>
+			<Set>
+				<Text>
+					Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+
+<!-- Caravansary: Now also provides +1 Gold and +1 Happiness. -->
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_CARAVANSARY"/>
+			<Set>
+				<Happiness>1</Happiness>
+			</Set>
+		</Update>
+	<Buildings>
+
+
+<!-- Stone Works: Can now be built in Cities on Plains as well. -->
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_STONE_WORKS"/>
+			<Set>
+				<ProhibitedCityTerrain></ProhibitedCityTerrain>
+			</Set>
+		</Update>
+	<Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_STRATEGY"/>
+			<Set>
+				<Text>
+					Stone Works can only be constructed in a city near an improved [ICON_RES_STONE] Stone or [ICON_RES_MARBLE] Marble resource. Stone Works increase a city's [ICON_PRODUCTION] production.
+				</Text>
+			</Set>
+		</Update>
+        <Update>
+			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP"/>
+			<Set>
+				<Text>
+					Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+
+<!-- Windmill: Can now be built in Cities on Hills as well. Gives +5% Production to everything instead of +10% to only buildings. No longer has an Engineer slot, but gives +2 Food. Coffee House also changed to match. -->
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WINDMILL"/>
+			<Set>
+				<Flat></Flat>
+				<BuildingProductionModifier></BuildingProductionModifier>
+				<SpecialistType></SpecialistType>
+				<SpecialistCount></SpecialistCount>
+			</Set>
+		</Update>
+	</Buildings>
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_COFFEE_HOUSE"/>
+			<Set>
+				<SpecialistType></SpecialistType>
+				<SpecialistCount></SpecialistCount>
+			</Set>
+		</Update>
+	</Buildings>
+
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+    <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WINDMILL_STRATEGY"/>
+			<Set>
+				<Text>
+					The Windmill is a Renaissance-era building which increases the [ICON_FOOD] Food and [ICON_PRODUCTION] Production output of a city.
+				</Text>
+			</Set>
+		</Update>
+        <Update>
+			<Where Tag="TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY"/>
+			<Set>
+				<Text>
+					The Coffee House is a Renaissance-era building unique to Austria, replacing the Windmill. It increases the city's [ICON_FOOD] Food and [ICON_PRODUCTION] Production. It also increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated by 25%.
+				</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WINDMILL_HELP"/>
+			<Set>
+				<Text>
+				</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+
+</GameData>

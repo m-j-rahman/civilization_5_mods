@@ -22,11 +22,4 @@
 		</Update>
 	</Unit_ClassUpgrades>
 
-	<Unit_FreePromotions>
-		<Delete>
-			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
-			<PromotionType>PROMOTION_ONLY_ATTACKS_CITIES</PromotionType>
-		</Delete>
-	</Unit_FreePromotions>
-
 </GameData>

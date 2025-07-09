@@ -5,7 +5,7 @@
     <Language_en_US>
         <Update>
             <Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED"/>
-            <Set Text="Units have a +10% Combat Bonus and fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
+            <Set Text="Units have a +15% Combat Bonus when attacking and fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from Fishing Boats and Atolls."/>
         </Update>
     </Language_en_US>
 
@@ -14,7 +14,7 @@
             <Text>Bushido</Text>
         </Row>
         <Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-            <Text>+10% Combat Bonus</Text>
+            <Text>+15% Combat Bonus when attacking</Text>
         </Row>
     </Language_en_US>
 
@@ -25,8 +25,7 @@
             <Help>TXT_KEY_PROMOTION_BUSHIDO_HELP</Help>
             <Sound>AS2D_IF_LEVELUP</Sound>
             <CannotBeChosen>true</CannotBeChosen>
-            <AttackMod>10</AttackMod>
-            <DefenseMod>10</DefenseMod>
+            <AttackMod>15</AttackMod>
             <PortraitIndex>59</PortraitIndex>
             <IconAtlas>ABILITY_ATLAS</IconAtlas>
             <PediaType>PEDIA_SHARED</PediaType>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b32356f-83d9-4f62-82e1-8ced168da002" version="106">
+  <Properties>
+    <Name>Unit Path Rework</Name>
+    <Teaser>Changes the stats and upgrade paths of various units, including some new units, for better balance and variety.</Teaser>
+    <Description>[NEWLINE]
+    * Commando introduced as a rework of the Marine. It costs 375 Production and has 60 Strength, 3 Movement, 3 Sight, Amphibious, Embarkation with Defense, and ignores terrain costs.[NEWLINE][NEWLINE]
+    * Explorer introduced as a rework of the existing unit from the Scramble for Africa scenario. It is unlocked by Rifling and upgrades to Commando. It costs 150 Production and has 20 Strength, 3 Movement, 3 Sight, and ignores terrain costs.[NEWLINE][NEWLINE]
+    * Scout and Shoshone Pathfinder now upgrade to Explorer. Via ancient ruins, they still upgrade to Archer and Composite Bowman respectively.[NEWLINE][NEWLINE]
+    * Pike and Shot introduced as a standard unit. It is based on the Spanish Tercio, except with 20 Strength and 135 Production Cost.[NEWLINE][NEWLINE]
+    * Spanish Tercio now replaces Pike and Shot (instead of Musketman). It has 135 Production Cost (down from 160), but keeps its 26 Strength.[NEWLINE][NEWLINE]
+    * Pikeman and Landsknecht now upgrade into Pike and Shot (instead of Lancer). Zulu Impi still upgrades into Rifleman.[NEWLINE][NEWLINE]
+    * Knight and its unique replacements now upgrade into Lancer (instead of Cavalry).[NEWLINE][NEWLINE]
+    * Lancer and its unique replacements now upgrade into Cavalry (instead of Anti-Tank Gun). They are made obsolete by Combustion. They no longer have Formation I, but have 28 Strength (up from 25) and the Heavy Charge ability (which is now lost on upgrade).[NEWLINE][NEWLINE]
+    * Anti-Tank Gun is now unlocked by Ballistics (instead of Combined Arms) and has 60 Strength (up from 50).[NEWLINE][NEWLINE]
+    * Tank now has 80 Strength (up from 70). German Panzer now has Enhanced Flank Attack, since it already had 80 Strength.[NEWLINE][NEWLINE]
+    * Bazooka is now unlocked by Rocketry (instead of Nuclear Fission). It has 80 Strength and Ranged Strength (down from 85), but has a 50% bonus vs Armor units.[NEWLINE][NEWLINE]
+    * Helicopter Gunship now requires Oil (instead of Aluminum) and has 80 Strength (up from 60).[NEWLINE][NEWLINE]
+    * Battleship now upgrades into Missile Cruiser.[NEWLINE][NEWLINE]
+    * Missile Cruiser now has Indirect Fire.
+    </Description>
+    <Authors>m-j-rahman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2FD8FD6B89394782152C63F90D546734" import="0">xml/units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xml/units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
