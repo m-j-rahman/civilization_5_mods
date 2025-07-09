@@ -42,7 +42,7 @@
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 		</Row>
-	</Building_LocalResourceOrs>
+	</Building_LocalResourceAnds>
 
 	<Language_en_US>
 		<Update>
@@ -81,7 +81,7 @@
 				<Happiness>1</Happiness>
 			</Set>
 		</Update>
-	<Buildings>
+	</Buildings>
 
 
 <!-- Stone Works: Can now be built in Cities on Plains as well. -->
@@ -93,7 +93,7 @@
 				<ProhibitedCityTerrain></ProhibitedCityTerrain>
 			</Set>
 		</Update>
-	<Buildings>
+	</Buildings>
 
 	<Language_en_US>
 		<Update>
