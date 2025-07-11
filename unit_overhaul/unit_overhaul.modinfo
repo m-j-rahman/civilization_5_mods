@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="0b32356f-83d9-4f62-82e1-8ced168da002" version="106">
   <Properties>
-    <Name>Unit Path Rework</Name>
+    <Name>Unit Overhaul</Name>
     <Teaser>Changes the stats and upgrade paths of various units, including some new units, for better balance and variety.</Teaser>
     <Description>[NEWLINE]
     * Commando introduced as a rework of the Marine. It costs 375 Production and has 60 Strength, 3 Movement, 3 Sight, Amphibious, Embarkation with Defense, and ignores terrain costs.[NEWLINE][NEWLINE]
