@@ -64,24 +64,15 @@
 	</Language_en_US>
 
 
-<!-- Caravansary: Now also provides +1 Gold and +1 Happiness. -->
+<!-- Caravansary: Now also provides +2 Gold. -->
 
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-
-	<Buildings>
-		<Update>
-			<Where Type="BUILDING_CARAVANSARY"/>
-			<Set>
-				<Happiness>1</Happiness>
-			</Set>
-		</Update>
-	</Buildings>
 
 
 <!-- Stone Works: Can now be built in Cities on Plains as well. -->

@@ -722,13 +722,13 @@
     <!-- Battleship now upgrades into Missile Cruiser. -->
 
 	<Unit_ClassUpgrades>
-		<Update>
-			<Where UnitType="UNIT_BATTLESHIP"/>
-			<Set UnitClassType="UNITCLASS_MISSILE_CRUISER"/>
-		</Update>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+		</Row>
 	</Unit_ClassUpgrades>
 
-
+	
     <!-- Missile Cruiser now has Indirect Fire. -->
 
 	<Unit_FreePromotions>

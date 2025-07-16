@@ -6,7 +6,7 @@
     <Description>[NEWLINE][NEWLINE]    
     * Granary now also provides +1 Food from Bison.[NEWLINE][NEWLINE]
     * Mint now also provides +2 Gold from Copper and can be built with improved Copper nearby.[NEWLINE][NEWLINE]
-    * Caravansary now also provides +1 Gold and +1 Happiness.[NEWLINE][NEWLINE]
+    * Caravansary now also provides +2 Gold.[NEWLINE][NEWLINE]
     * Stone Works can now be built in Cities on Plains as well.[NEWLINE][NEWLINE]
     * Windmill can now be built in Cities on Hills as well. Gives +5% Production to everything instead of +10% to only buildings. No longer has an Engineer slot, but gives +2 Food. Coffee House also changed to match.
     </Description>
